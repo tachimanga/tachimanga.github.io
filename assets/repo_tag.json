@@ -1,0 +1,23 @@
+{
+    "list": [
+        {
+            "pkg": "eu.kanade.tachiyomi.extension.fr.japscan",
+            "tagList": [{
+                "text": "broken"
+            }]
+        },
+        {
+            "pkg": "eu.kanade.tachiyomi.extension.zh.gufengmh",
+            "suffix": " ⚡️"
+        },
+        {
+            "pkg": "eu.kanade.tachiyomi.extension.all.mangadex",
+            "suffix": " 🔥🔥🔥",
+            "top": true
+        },
+        {
+            "pkg": "eu.kanade.tachiyomi.extension.all.cubari",
+            "down": true
+        }
+    ]
+}
