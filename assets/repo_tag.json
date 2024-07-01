@@ -1,0 +1,75 @@
+{
+    "list": [
+        {
+            "pkg": "eu.kanade.tachiyomi.extension.all.mangadex",
+            "suffix": " 🔥🔥🔥",
+            "top": true
+        },
+        {
+            "pkg": "eu.kanade.tachiyomi.extension.fr.japscan",
+            "tagList": [{
+                "text": "Ne fonctionne pas"
+            }]
+        },
+        {
+            "pkg": "eu.kanade.tachiyomi.extension.zh.onemanhua",
+            "tagList": [{
+                "text": "不工作"
+            }]
+        },
+        {
+            "pkg": "eu.kanade.tachiyomi.extension.en.mangadig",
+            "tagList": [{
+                "text": "Not working"
+            }]
+        },
+        {
+            "pkg": "eu.kanade.tachiyomi.extension.id.mangaku",
+            "tagList": [{
+                "text": "Tidak berfungsi"
+            }]
+        },
+        {
+            "pkg": "eu.kanade.tachiyomi.extension.all.comikey",
+            "tagList": [{
+                "text": "Not working"
+            }]
+        },
+        {
+            "pkg": "eu.kanade.tachiyomi.extension.all.cubari",
+            "tagList": [{
+                "text": "Not working"
+            }]
+        },
+        {
+            "pkg": "eu.kanade.tachiyomi.extension.ru.hentailib",
+            "tagList": [{
+                "text": "Не работает"
+            }]
+        },
+        {
+            "pkg": "eu.kanade.tachiyomi.extension.ru.mangalib",
+            "tagList": [{
+                "text": "Не работает"
+            }]
+        },
+        {
+            "pkg": "eu.kanade.tachiyomi.extension.ru.yaoilib",
+            "tagList": [{
+                "text": "Не работает"
+            }]
+        },
+        {
+            "pkg": "eu.kanade.tachiyomi.extension.en.anshscans",
+            "down": true
+        },
+        {
+            "pkg": "eu.kanade.tachiyomi.extension.en.comicscans",
+            "down": true
+        },
+        {
+            "pkg": "eu.kanade.tachiyomi.extension.all.mangatopsite",
+            "down": true
+        }
+    ]
+}
