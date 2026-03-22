@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Troubleshooting App Launch Failure | Tachimanga</title>
+    <meta name="generator" content="VuePress 1.9.10">
+    <script async="true" src="https://www.googletagmanager.com/gtag/js?id=G-9LFFK539EF"></script>
+    <script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-9LFFK539EF');</script>
+    <script async="true" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script>function googleTranslateElementInit() { new google.translate.TranslateElement({ pageLanguage: 'en', includedLanguages: 'ar,de,en,es,fr,hu,id,it,ms,pt,pt_PT,ru,th,tr,uk,vi,zh-TW', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL, autoDisplay: !1 }, 'google_translate_element'); }</script>
+    <meta name="description" content="Step-by-step guide to resolve app launch issues.">
+    
+    <link rel="preload" href="/assets/css/0.styles.1d853b90.css" as="style"><link rel="preload" href="/assets/js/app.92151967.js" as="script"><link rel="preload" href="/assets/js/2.3e61432c.js" as="script"><link rel="preload" href="/assets/js/1.17d8f4ca.js" as="script"><link rel="preload" href="/assets/js/35.05fde7bf.js" as="script"><link rel="prefetch" href="/assets/js/10.8567cc5f.js"><link rel="prefetch" href="/assets/js/11.26d3209c.js"><link rel="prefetch" href="/assets/js/12.6c1fb3d0.js"><link rel="prefetch" href="/assets/js/13.88a5f7b2.js"><link rel="prefetch" href="/assets/js/14.9da8beef.js"><link rel="prefetch" href="/assets/js/15.9e9c2e45.js"><link rel="prefetch" href="/assets/js/16.d10c3c81.js"><link rel="prefetch" href="/assets/js/17.bd8d538c.js"><link rel="prefetch" href="/assets/js/18.6d3b94c1.js"><link rel="prefetch" href="/assets/js/19.98e77267.js"><link rel="prefetch" href="/assets/js/20.dd2299aa.js"><link rel="prefetch" href="/assets/js/21.74ee3a12.js"><link rel="prefetch" href="/assets/js/22.f0264e33.js"><link rel="prefetch" href="/assets/js/23.d30ef7b0.js"><link rel="prefetch" href="/assets/js/24.28434dfc.js"><link rel="prefetch" href="/assets/js/25.9c40c33d.js"><link rel="prefetch" href="/assets/js/26.00c525e0.js"><link rel="prefetch" href="/assets/js/27.edef5431.js"><link rel="prefetch" href="/assets/js/28.d1ce3cbb.js"><link rel="prefetch" href="/assets/js/29.6d015edc.js"><link rel="prefetch" href="/assets/js/3.a824ab41.js"><link rel="prefetch" href="/assets/js/30.bc782063.js"><link rel="prefetch" href="/assets/js/31.7e507f2d.js"><link rel="prefetch" href="/assets/js/32.ae3706c7.js"><link rel="prefetch" href="/assets/js/33.7c000805.js"><link rel="prefetch" href="/assets/js/34.072e6b57.js"><link rel="prefetch" href="/assets/js/36.9f13729d.js"><link rel="prefetch" href="/assets/js/37.6b92db12.js"><link rel="prefetch" href="/assets/js/38.e9dab9a8.js"><link rel="prefetch" href="/assets/js/39.093fc0e9.js"><link rel="prefetch" href="/assets/js/4.23d1ef9c.js"><link rel="prefetch" href="/assets/js/40.8c67b73b.js"><link rel="prefetch" href="/assets/js/41.cbdb5788.js"><link rel="prefetch" href="/assets/js/42.35e4af31.js"><link rel="prefetch" href="/assets/js/43.43766f64.js"><link rel="prefetch" href="/assets/js/44.c3e5f84a.js"><link rel="prefetch" href="/assets/js/45.075b6e6a.js"><link rel="prefetch" href="/assets/js/46.17fc5567.js"><link rel="prefetch" href="/assets/js/47.68e607cc.js"><link rel="prefetch" href="/assets/js/48.f515ad95.js"><link rel="prefetch" href="/assets/js/49.ba9bb23a.js"><link rel="prefetch" href="/assets/js/5.7114655b.js"><link rel="prefetch" href="/assets/js/6.91694f60.js"><link rel="prefetch" href="/assets/js/7.3acf3203.js"><link rel="prefetch" href="/assets/js/vendors~docsearch.b7a3ab4f.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.1d853b90.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/icons/logo.png" alt="Tachimanga" class="logo"> <span class="site-name can-hide">Tachimanga</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/help/guides/get-started.html" class="nav-link">
+  Getting Started
+</a></div><div class="nav-item"><a href="/help/faq/" class="nav-link">
+  FAQ
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Guides" class="dropdown-title"><span class="title">Guides</span> <span class="arrow down"></span></button> <button type="button" aria-label="Guides" class="mobile-dropdown-title"><span class="title">Guides</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          Guides
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/help/guides/get-started.html" class="nav-link">
+  Getting started
+</a></li><li class="dropdown-subitem"><a href="/help/guides/extensions.html" class="nav-link">
+  Extensions
+</a></li><li class="dropdown-subitem"><a href="/help/guides/repositories.html" class="nav-link">
+  Extension Repositories
+</a></li><li class="dropdown-subitem"><a href="/help/guides/reader.html" class="nav-link">
+  Reader
+</a></li><li class="dropdown-subitem"><a href="/help/guides/sync.html" class="nav-link">
+  Sync
+</a></li><li class="dropdown-subitem"><a href="/help/guides/tracking.html" class="nav-link">
+  Tracking
+</a></li><li class="dropdown-subitem"><a href="/help/guides/backups.html" class="nav-link">
+  Backups
+</a></li><li class="dropdown-subitem"><a href="/help/guides/downloads.html" class="nav-link">
+  Downloads
+</a></li><li class="dropdown-subitem"><a href="/help/guides/source-migration.html" class="nav-link">
+  Source migration
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Links" class="dropdown-title"><span class="title">Links</span> <span class="arrow down"></span></button> <button type="button" aria-label="Links" class="mobile-dropdown-title"><span class="title">Links</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://discord.gg/8aMcdYdaBz" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Discord
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://apps.apple.com/us/app/tachimanga/id6447486175" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  App Store
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://github.com/tachimanga" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://hosted.weblate.org/projects/tachimanga/intl/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Weblate
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/help/guides/get-started.html" class="nav-link">
+  Getting Started
+</a></div><div class="nav-item"><a href="/help/faq/" class="nav-link">
+  FAQ
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Guides" class="dropdown-title"><span class="title">Guides</span> <span class="arrow down"></span></button> <button type="button" aria-label="Guides" class="mobile-dropdown-title"><span class="title">Guides</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          Guides
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/help/guides/get-started.html" class="nav-link">
+  Getting started
+</a></li><li class="dropdown-subitem"><a href="/help/guides/extensions.html" class="nav-link">
+  Extensions
+</a></li><li class="dropdown-subitem"><a href="/help/guides/repositories.html" class="nav-link">
+  Extension Repositories
+</a></li><li class="dropdown-subitem"><a href="/help/guides/reader.html" class="nav-link">
+  Reader
+</a></li><li class="dropdown-subitem"><a href="/help/guides/sync.html" class="nav-link">
+  Sync
+</a></li><li class="dropdown-subitem"><a href="/help/guides/tracking.html" class="nav-link">
+  Tracking
+</a></li><li class="dropdown-subitem"><a href="/help/guides/backups.html" class="nav-link">
+  Backups
+</a></li><li class="dropdown-subitem"><a href="/help/guides/downloads.html" class="nav-link">
+  Downloads
+</a></li><li class="dropdown-subitem"><a href="/help/guides/source-migration.html" class="nav-link">
+  Source migration
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Links" class="dropdown-title"><span class="title">Links</span> <span class="arrow down"></span></button> <button type="button" aria-label="Links" class="mobile-dropdown-title"><span class="title">Links</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://discord.gg/8aMcdYdaBz" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Discord
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://apps.apple.com/us/app/tachimanga/id6447486175" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  App Store
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://github.com/tachimanga" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://hosted.weblate.org/projects/tachimanga/intl/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Weblate
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/" aria-current="page" class="sidebar-link">Home</a></li><li><a href="/help/faq/" class="sidebar-link">FAQ</a></li><li><a href="/docs/changelogs.html" class="sidebar-link">Changelogs</a></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Guides</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><div id="google_translate_element"></div> <h2 id="troubleshooting-app-launch-failure"><a href="#troubleshooting-app-launch-failure" class="header-anchor">#</a> Troubleshooting App Launch Failure</h2> <p>If you are experiencing issues launching the app, please follow the steps below in order:</p> <ol><li><p><strong>Restart Your Device</strong><br>
+Try restarting your device. If the issue persists, proceed to step 2.</p></li> <li><p><strong>Restore from Backup</strong><br>
+If you have a recent backup, attempt to restore the app using that backup. If the issue continues after restoring, proceed to step 3.</p></li> <li><p><strong>Reinstall and Set Up the App</strong><br>
+Note: Reinstalling the app will delete your library. Be sure to export your backup before proceeding with the steps below.</p> <ol><li>Delete the app, then reinstall it from the App Store or TestFlight.</li> <li>If you have sync enabled, log in to your sync account to restore your library.</li> <li>If you have a recent backup, use it to restore your library.</li></ol></li></ol></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.92151967.js" defer></script><script src="/assets/js/2.3e61432c.js" defer></script><script src="/assets/js/1.17d8f4ca.js" defer></script><script src="/assets/js/35.05fde7bf.js" defer></script>
+  </body>
+</html>
